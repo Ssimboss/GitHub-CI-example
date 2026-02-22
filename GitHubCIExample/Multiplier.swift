@@ -8,6 +8,10 @@
 final class Multiplier {
     // Multiplies 2 numbers
     static func multiply(_ a: Int, by b: Int) -> Int {
-        return a * b
+        var result: Int = 0
+        for _ in 0 ..< b {
+            result += a
+        }
+        return result
     }
 }
