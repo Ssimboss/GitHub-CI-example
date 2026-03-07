@@ -1,0 +1,75 @@
+# file options
+
+# format options
+
+--indent 4
+--maxwidth 120
+--indentcase false
+--linebreaks lf
+--extensionacl on-extension
+--wrapcollections before-first
+--wrapparameters before-first
+--self init-only
+--stripunusedargs closure-only
+--typeblanklines preserve
+
+# rules
+
+--disable all
+
+# Indentaion
+--enable indent
+#--enable linebreaks
+--enable linebreakAtEndOfFile
+
+# Wrapping
+--enable consecutiveBlankLines
+#--enable elseOnSameLine
+#--enable wrapArguments
+#--enable wrapConditionalBodies
+#--enable wrapEnumCases
+#--enable wrapMultilineStatementBraces
+#--enable wrapSwitchCases
+
+# Imports
+#--enable sortedImports
+--enable duplicateImports
+
+# Redundant
+--enable redundantBackticks
+--enable redundantBreak
+#--enable redundantClosure
+#--enable redundantFileprivate
+--enable redundantInit
+--enable redundantLetError
+#--enable redundantNilInit
+--enable redundantParens
+--enable redundantPattern
+--enable redundantVoidReturnType
+--enable semicolons
+
+# Spaces
+--enable spaceAroundBraces
+#--enable spaceAroundBrackets
+#--enable spaceAroundComments
+#--enable spaceAroundGenerics
+--enable spaceAroundOperators
+--enable spaceInsideBraces
+#--enable spaceInsideGenerics
+#--enable spaceInsideParens
+--enable trailingSpace
+
+# Others
+#--enable blockComments
+--enable modifierOrder
+#--enable braces
+#--enable extensionAccessControl
+#--enable isEmpty
+--enable hoistPatternLet
+#--enable leadingDelimiters
+#--enable markTypes
+#--enable numberFormatting
+#--enable preferKeyPath
+#--enable strongifiedSelf
+#--enable todos
+#--enable void
